@@ -23,7 +23,7 @@ The 3-layer CNN architecture is explicitly designed to mirror multi-scale atmosp
 ## Performance & Out-of-Sample Results Analysis
 
 | Global SST Anomaly Map | Model Training Loss Curve | Predicted vs. Actual Niño 3.4 Index |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | ![SST Map](hw9-0.png) | ![Loss Curve](hw9-1.png) | ![Loss Curve (Logarithmic Scale)](hw9-2.png) | ![Niño 3.4 Prediction](hw9-3.png) |
 | *Geospatial contour plot of global SST anomalies parsed via Cartopy & NetCDF4.* | *Convergence of MSE Loss across 100 training/validation epochs.* | *Model out-of-sample forecast vs. ground truth Niño 3.4 Index time-series.* |
 
